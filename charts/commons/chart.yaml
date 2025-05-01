@@ -1,0 +1,25 @@
+# Copyright Duplocloud, Inc. All Rights Reserved.
+# SPDX-License-Identifier: MIT
+
+annotations:
+  category: Infrastructure
+  licenses: MIT
+apiVersion: v2
+type: library
+appVersion: 0.0.1
+version: 0.0.1
+description: A common set of functions which can be used to generate all the resources the Duplocloud way. 
+home: https://duplocloud.com
+icon: https://duplocloud.com/wp-content/uploads/2024/02/logo.png
+keywords:
+  - common
+  - helper
+  - template
+  - function
+  - duplocloud
+maintainers:
+  - name: Duplocloud
+    url: https://duplocloud.com
+name: common
+sources:
+  - https://github.com/duplocloud/helm/tree/main/charts/commons

@@ -1,0 +1,28 @@
+# Copyright Broadcom, Inc. All Rights Reserved.
+# SPDX-License-Identifier: APACHE-2.0
+name: service
+annotations:
+  category: Infrastructure
+  licenses: MIT
+apiVersion: v2
+appVersion: 0.0.1
+version: 0.0.1
+dependencies:
+- name: common
+  repository: "https://duplocloud.github.io/helm/commons"
+  tags:
+  - duplocloud-common
+  version: 0.0.1
+description: A simple and generic microservice. 
+home: https://duplocloud.com
+icon: https://duplocloud.com/wp-content/uploads/2024/02/logo.png
+keywords:
+- apps
+- cd
+- duplocloud
+maintainers:
+- name: Duplocloud
+  url: 
+sources:
+- https://github.com/duplocloud/helm/service
+
